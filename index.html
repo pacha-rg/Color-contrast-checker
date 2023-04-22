@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color contrast checker</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carlito&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="input-colors">
+            <div class="color-container">
+                <label for="text-color">Text Color:</label>
+                <input type="color" id="text-color" value="#000000" />
+            </div>
+            <div class="color-container">
+                <label for="bg-color">Background Color:</label>
+                <input type="color" id="bg-color" value="#3277f6" />
+            </div>
+        </div>
+        <div class="result">
+            <div id="preview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ullam ad maiores perspiciatis explicabo molestiae fugit vel error tempora, voluptates temporibus nulla corrupti culpa. Ut dolor esse exercitationem nostrum quo.
+            </div>
+            <p id="contrast">1</p>
+            <p id="rating">Demo Text</p>
+        </div>
+    </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
