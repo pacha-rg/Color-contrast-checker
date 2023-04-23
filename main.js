@@ -10,6 +10,7 @@ bgColor.value = "#" + randomColor();
 
 function randomColor () {
     let hexNum = Math.floor(Math.random()*16777215).toString(16);
+    console.log(hexNum);
     return hexNum;
 };
 
